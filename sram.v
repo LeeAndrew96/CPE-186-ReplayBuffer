@@ -14,6 +14,7 @@ initial begin
   memory [1] <= 20;
   memory [2] <= 30;
   memory [3] <= 50;
+  memory [4] <= 70;  //added a fifth memory locations
   #1;
   for (i = 0; i <= 3; i = i + 1) begin
        $display(" Address = %d,  Memory Data = %h",i,memory [i]);
